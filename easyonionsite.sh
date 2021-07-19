@@ -20,6 +20,7 @@
 	sudo cp nginx.conf /etc/nginx/
 	#restart servisow
 	sudo service tor restart && sudo service nginx restart
+	clear
 	echo "give it a second now cuz script will restart tor and nginx service, we are getting there"
 	sleep 10
 	#adres twojej strony
