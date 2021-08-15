@@ -16,8 +16,8 @@
 	sudo service nginx start
 	sudo service tor start
 	#kopiowanie configu na miejsce aktualnej konfiguracji
-	sudo cp /conf_files/torrc /etc/tor/
-	sudo cp /conf_files/nginx.conf /etc/nginx/
+	sudo cp conf_files/torrc /etc/tor/
+	sudo cp conf_files/nginx.conf /etc/nginx/
 	#restart servisow
 	sudo service tor restart && sudo service nginx restart
 	clear
